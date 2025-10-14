@@ -1,0 +1,25 @@
+title: Academic Personal Website
+description: A personal academic website showcasing research, publications, and teaching experience.
+author:
+  name: Your Name
+  email: your.email@example.com
+baseurl: ""
+url: "http://yourwebsite.com"
+theme: "default"
+social:
+  github: "https://github.com/yourusername"
+  linkedin: "https://linkedin.com/in/yourusername"
+  twitter: "https://twitter.com/yourusername"
+navigation:
+  - title: Home
+    url: index.html
+  - title: About
+    url: about.html
+  - title: Research
+    url: research.html
+  - title: Publications
+    url: publications.html
+  - title: Teaching
+    url: teaching.html
+  - title: CV
+    url: cv.pdf

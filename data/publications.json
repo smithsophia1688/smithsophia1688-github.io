@@ -1,0 +1,25 @@
+{
+  "publications": [
+    {
+      "title": "Title of Publication 1",
+      "authors": ["Author One", "Author Two"],
+      "journal": "Journal Name",
+      "year": 2023,
+      "doi": "https://doi.org/10.1234/example1"
+    },
+    {
+      "title": "Title of Publication 2",
+      "authors": ["Author One"],
+      "journal": "Another Journal Name",
+      "year": 2022,
+      "doi": "https://doi.org/10.1234/example2"
+    },
+    {
+      "title": "Title of Publication 3",
+      "authors": ["Author One", "Author Three"],
+      "journal": "Yet Another Journal",
+      "year": 2021,
+      "doi": "https://doi.org/10.1234/example3"
+    }
+  ]
+}

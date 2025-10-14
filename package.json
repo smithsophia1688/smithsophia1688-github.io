@@ -1,0 +1,16 @@
+{
+  "name": "academic-personal-website",
+  "version": "1.0.0",
+  "description": "A personal academic website to showcase research, publications, and teaching experience.",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server .",
+    "build": "echo 'Build step can be added here.'"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
