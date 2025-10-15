@@ -3,11 +3,11 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
 header {
-    background: #35424a;
+    background: #c2a0c8;
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
@@ -34,7 +34,7 @@ nav a:hover {
 }
 
 footer {
-    background: #35424a;
+    background: #c2a0c8;
     color: #ffffff;
     text-align: center;
     padding: 10px 0;
@@ -44,7 +44,7 @@ footer {
 }
 
 h1, h2, h3 {
-    color: #35424a;
+    color: #753580;
 }
 
 p {
