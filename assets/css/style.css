@@ -6,6 +6,15 @@ body {
     background-color: #ffffff;
 }
 
+main {
+    display: flex;
+    align-items: center; /* vertically center content */
+    justify-content: space-between; /* push items apart horizontally */
+    gap: 20px; /* space between text and image */
+    margin: 20px;
+}
+
+
 header {
     background: #c2a0c8;
     color: #ffffff;
@@ -13,8 +22,17 @@ header {
     text-align: center;
 }
 
-nav {
-    margin: 20px 0;
+nav ul {
+    list-style: none;       /* removes bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex;          /* lays out list items in a row */
+    justify-content: center; /* evenly centers them across the top */
+    gap: 20px;              /* adds spacing between links */
+}
+
+nav li {
+    display: inline;        /* not strictly needed with flexbox, but fine */
 }
 
 nav a {
@@ -57,4 +75,15 @@ p {
     margin: 15px 0;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.photo img {
+    max-width: 250px; /* adjust image size */
+    height: auto;
+    border-radius: 10px; /* optional: rounded corners */
+}
+
+.photo img {
+    width: 300px;
+    border-radius: 10px; /* rounds corners */
 }
