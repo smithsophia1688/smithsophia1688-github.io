@@ -5,29 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Publications</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <header>
         <h1>My Publications</h1>
+        <div class="social-icons">
+            <a href="mailto:smithsophia1688@gmail.com" class="tooltip">
+                <i class="fa-solid fa-envelope"></i>
+                <span class="tooltip-text">Email</span>
+            </a>
+            <a href="https://www.linkedin.com/in/sophia-smith-611491293/" target="_blank" class="tooltip">
+                <i class="fa-brands fa-linkedin"></i>
+                <span class="tooltip-text">LinkedIn</span>
+            </a>
+            <a href="https://scholar.google.com/citations?user=nHW3ScAAAAAJ&hl=en&oi=ao" target="_blank" class="tooltip">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span class="tooltip-text">Google Scholar</span>
+            </a>
+            <a href="https://github.com/smithsophia1688" target="_blank" class="tooltip">
+                <i class="fa-brands fa-github"></i>
+                <span class="tooltip-text">GitHub</span>
+            </a>
+        </div>
+        
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="research.html">Research Interests</a></li>
-                <li><a href="publications.html">My Publications</a></li>
+                <li><a href="publications.html">Publications</a></li>
                 <li><a href="outreach.html">Outreach</a></li>
                 <li><a href="art.html">My Art</a></li>
+                <!-- <li><a href="cv.pdf" target="_blank">Download CV</a></li> -->
             </ul>
         </nav>
     </header>
+    
     <main>
-        <section id="publication-section">
-            <h2>Research Publications</h2>
-            <ul id="publication-list"></ul>
+        <section id="publication-section" class="publications">
+            <ul id="publication-list" class="pub-list" aria-live="polite">
+                <li class="pub-item" role="article" aria-labelledby="p1-title">
+                    <h3 id="p1-title" class="pub-title">Separation Assurance in Urban Air Mobility Systems using Shared Scheduling Protocols</h3>
+                    <p class="pub-authors">Surya K Murthy, Tyler Ingebrand, <u>Sophia Smith</u>, Ufuk Topcu, Peng Wei, Natasha A Neogi </p>
+                    <p <span class="pub-venue">AIAA SCITECH Forum</span> </p>
+                    <p class="pub-meta">
+                        <pub-doi class="pub-doi"><a href="https://doi.org/10.2514/6.2025-2116" target="_blank" rel="noopener">DOI</a></pub-doi>
+                        <time datetime="2025">2025</time>
+                    </p>
+                </li>
+
+                <li class="pub-item" role="article" aria-labelledby="p1-title">
+                    <h3 id="p1-title" class="pub-title">When Should a Leader Act Suboptimally? The Role of Inferability in Repeated Stackelberg Games</h3>
+                    <p class="pub-authors">Mustafa O Karabag, <u>Sophia Smith</u>, Negar Mehr, David Fridovich-Keil, Ufuk Topcu </p>
+                    <p <span class="pub-venue">arXiv preprint</span> </p>
+                    <p class="pub-meta">
+                        <pub-doi class="pub-doi"><a href="https://doi.org/10.48550/arXiv.2310.00468" target="_blank" rel="noopener">DOI</a></pub-doi>
+                        <time datetime="2025">2025</time>
+                    </p>
+                </li>
+                
+                <li class="pub-item" role="article" aria-labelledby="p1-title">
+                    <h3 id="p1-title" class="pub-title">Encouraging Inferable Behavior for Autonomy: Repeated Bimatrix Stackelberg Games with Observations</h3>
+                    <p class="pub-authors">Mustafa O Karabag, <u>Sophia Smith</u>, David Fridovich-Keil, Ufuk Topcu </p>
+                    <p <span class="pub-venue">American Control Conference</span> </p>
+                    <p class="pub-meta">
+                        <pub-doi class="pub-doi"><a href="https://doi.org/10.23919/ACC60939.2024.10644936" target="_blank" rel="noopener">DOI</a></pub-doi>
+                        <time datetime="2024">2024</time>
+                    </p>
+                </li>
+
+                <li class="pub-item" role="article" aria-labelledby="p1-title">
+                    <h3 id="p1-title" class="pub-title">Automatic Decomposition of Reward Machines for Decentralized Multiagent Reinforcement Learning</h3>
+                    <p class="pub-authors"><u>Sophia Smith</u>, Cyrus Neary, Ufuk Topcu</p>
+                    <p <span class="pub-venue">Conference for Decision and Control</span> </p>
+                    <p class="pub-meta">
+                        <pub-doi class="pub-doi"><a href="https://doi.org/10.1109/CDC49753.2023.10384224" target="_blank" rel="noopener">DOI</a></pub-doi>
+                        <time datetime="2023">2023</time>
+                    </p>
+                </li>
+
+                <li class="pub-item" role="article" aria-labelledby="p1-title">
+                    <h3 id="p1-title" class="pub-title">Decentralized Conflict Resolution for Multi-Agent Reinforcement Learning Through Shared Scheduling Protocols</h3>
+                    <p class="pub-authors"> Tyler Ingebrand*, <u>Sophia Smith</u>*, Ufuk Topcu</p>
+                    <p <span class="pub-venue">Conference for Decision and Control </span> </p>
+                    <p class="pub-meta">
+                        <pub-doi class="pub-doi"><a href="https://doi.org/10.1109/CDC49753.2023.10383785" target="_blank" rel="noopener">DOI</a></pub-doi>
+                        <time datetime="2023">2023</time>
+                    </p>
+                </li>
+                
+                
+                
+            </ul>
+
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 Your Name. All rights reserved.</p>
+        <p>&copy; 2025 Sophia J. Smith. All rights reserved.</p>
     </footer>
-    <script src="assets/js/main.js"></script>
 </body>
 </html>
