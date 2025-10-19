@@ -58,10 +58,8 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 
-## TO TEST
+## bypass virtual env permissions: 
 1. Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-2. 
-& C:/Users/smith_5/OneDrive/Documents/modify_pdfs/modify_pdfs_venv/Scripts/Activate.ps1
 
-3. PS C:\Users\smith_5\Dserver 8000
-4. Open: http://localhost:8000/publications.html
+## TO TEST LOCALLY
+C:\Users\smith_5\OneDrive\Documents\smithsophia1688.github.io\index.html
