@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <title>Research</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
 </head>
 <body>
     <header>
-        <h1>Research Interests</h1>
+        <h1>Research</h1>
         <div class="social-icons">
             <a href="mailto:smithsophia1688@gmail.com" class="tooltip">
                 <i class="fa-solid fa-envelope"></i>
@@ -29,33 +28,142 @@
                 <span class="tooltip-text">GitHub</span>
             </a>
         </div>
-
+        
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="research.html">Research Interests</a></li>
                 <li><a href="publications.html">Publications</a></li>
-                <li><a href="outreach.html">Outreach</a></li>
-                <li><a href="art.html">My Art</a></li>
+                <!-- <li><a href="outreach.html">Outreach</a></li> -->
+                <li><a href="art.html">Art</a></li>
+                <!-- <li><a href="cv.pdf" target="_blank">Download CV</a></li> -->
             </ul>
-        </nav> 
+        </nav>
     </header>
-    <main>
-        <section>
-            <h2>Research Projects</h2>
-            <ul>
-                <li>Research Project 1 - Description</li>
-                <li>Research Project 2 - Description</li>
-                <li>Research Project 3 - Description</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Research Philosophy</h2>
-            <p>
-                My teaching philosophy centers around fostering an inclusive and engaging learning environment. I believe in encouraging critical thinking and active participation among students.
-            </p>
-        </section>
-    </main>
+    
+    <research-main>
+        <aside class="side-nav" aria-label="Research sections">
+            <nav>
+                <h2>Research Areas</h2>
+                <ul>
+                    <li><a href="#marl">Decentralized Multi-Agent Reinforcement Learning</a></li>
+                    <li><a href="#game-theory">Game Theory</a></li>
+                    <li><a href="#bridging-ai">Bridging AI and Formal Methods</a></li>
+                    <li><a href="#air-traffic-management">Air Traffic Management for Autonomous Aircraft</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <div class="container" id="research-section">
+
+            <section id="marl" class="research-section card">
+                <h2>Decentralized Multi-Agent Reinforcement Learning </h2>
+                <p>My research in this area focuses on developing algorithms that enable autonomuos agents to learn and make decisions collaboratively in complex environments.</p>
+
+                <div class="project">
+                    <div class="photo">
+                        <img src="images/protocols.jpg" alt="Protocols for Decentralized MARL">
+                    </div>
+                    <div class="details">
+                        <h3>Decentralized Conflict Resolution for Multi-Agent Reinforcement
+Learning Through Shared Scheduling Protocols</h3>
+                        <p>
+                           Leveraging shared scheduling protocols to resolve
+conflict during decentralized multi-agent reinforcement learning. Shared scheduling protocols decentrally coordinate agent behavior and ensure no 
+one agent is allowed to greedily use resources.  
+
+<a href="https://github.com/tyler-ingebrand/SchedulingProtocolMARL" target="_blank"> See GitHub repository.</a>
+</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="photo">
+                        <img src="images/reward_machine.png" alt="reward machine for MARL">
+                    </div>
+                    <div class="details">
+                        <h3>Automatic Decomposition of Reward Machines for Decentralized
+Multiagent Reinforcement Learning</h3>
+                        <p>Investigating methods for automatically decomposing complex reward structures into agent specific components to enable fully decentralized learning.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="game-theory" class="research-section card">
+                <h2>Game Theory</h2>
+                <p>My research explores the application of game-theoretic concepts to inferable behavior and learning. </p>
+
+                <div class="project">
+                    <div class="photo">
+                        <img src="images/stackelberg_simulation.png" alt="Sensing project image">
+                    </div>
+                    <div class="details">
+                        <h3>Encouraging Inferable Behavior for Autonomy:
+Repeated Bimatrix Stackelberg Games with Observations</h3>
+                        <p> Investigating the use of repeated bimatrix Stackelberg games to encourage inferable behavior in autonomous agents when they are observed by other agents.</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="photo">
+                        <img src="images/gt_for_marl.png" alt="Game Theory for MARL">
+                    </div>
+                    <div class="details">
+                        <h3> Function Encoders for Multi-Agent Reinforcement Learning</h3>
+                        <p> Designing multi-agent reinforcement learning algorithms to leverage learned representation of opponents and game-theoretic reasoning.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="bridging-ai" class="research-section card">
+                <h2> Bridging AI and Formal Methods </h2>
+                <p> This research investigates how formal method can be used alongside AI techniques to improve the design of multi-agent systems.   </p>
+                <div class="project">
+                    <div class="photo">
+                        <img src="images/llm_nusmv.png" alt="llm_nusmv">
+                    </div>
+                    <div class="details">
+                        <h3>Large Language Models for Verifiable Multi-Agent Team Decomposition </h3>
+                        <p> Iteratively using language models to generate and refine formal specifications for multi-agent systems, enabling automated verification and validation of compositional multi-agent behavior.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="air-traffic-management" class="research-section card">
+                <h2>Air Traffic Management for Autonomous Aircraft</h2>
+                <p>  </p>
+
+                 <div class="project">
+                    <div class="photo">
+                        <img src="images/ctaf_trajectories.png" alt="CTAF trajectories">
+                    </div>
+                    <div class="details">
+                        <h3>Natural Language Processing of Non-Towered Airport Radio Communications</h3>
+                        <p>Investigating the integration of unmanned aircraft into non-towered airports by leveraging radio communications for situational awareness and planning around non-towered airports via natural language processing.
+    
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="photo">
+                        <img src="images/non_towered_airports.png" alt="Civics project image">
+                    </div>
+                    <div class="details">
+                        <h3>Communication during Loss Command and Control Link Events at Non-Towered Airports</h3>
+                        <p>  Concept development evaluating communication capabilities and requirements for unmanned aircraft when
+flying into non-towered airports. Investigating possible contingency operation adjustments in the event a remote pilot loses contact with an
+unmanned aircraft.
+ </p>
+                    </div>
+                </div>
+
+               
+            </section>
+
+        </div>
+    </research-main>
     <footer>
         <p>&copy; 2025 Sophia J. Smith. All rights reserved.</p>
     </footer>
