@@ -1,7 +1,7 @@
 
 Check out my personal website at https://smithsophia1688.github.io/index.html
 
-#Helpful Commands
+# Helpful Commands
 ## bypass virtual env permissions: 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
