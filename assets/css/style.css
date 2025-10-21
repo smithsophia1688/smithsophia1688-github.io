@@ -227,7 +227,7 @@ p {
 .project h3 { margin-top: 0; color: #5a2b63; }
 
 @media (max-width: 720px) {
-  main { width: 94%; }
+  main { width: 100%; margin: 10px auto; }
   .project { flex-direction: column; }
   .project .photo { flex: 0 0 auto; max-width: 100%; }
 }
@@ -381,7 +381,7 @@ img, video, iframe { max-width: 100%; height: auto; display: block; }
 
     nav ul { justify-content: flex-start; gap: 10px; }
 
-    main { display: block; width: 100%; margin: 12px auto; padding: 0; }
+    main { display: block; width: 100%; margin: 12px auto; padding: 10px; }
 
     .art-page main { grid-template-columns: 1fr; gap: 12px; width: 100%; }
 
@@ -395,7 +395,7 @@ img, video, iframe { max-width: 100%; height: auto; display: block; }
 }
 
 @media (min-width: 521px) and (max-width: 900px) {
-    main { width: 94%; margin: 14px auto; }
+    main { width: 80%; margin: 14px auto; }
     .masonry { column-width: 260px; }
     .side-nav { position: static; width: 100%; border-right: none; border-bottom: 2px solid rgba(90,43,99,0.08); top: auto; height: auto; padding-bottom: 12px; margin-bottom: 12px; }
 }
