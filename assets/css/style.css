@@ -297,7 +297,7 @@ nav a {
 
 #publication-section { max-width: 900px; margin: 2.5rem auto; padding: 0 1rem;  }
 .pub-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 1rem;  margin-bottom: .5rem;}
-.pub-item { background: #ead4ee1c; border: 1px solid rgba(0,0,0,0.06); padding: .75rem; border-radius: 8px; box-shadow: 0 1px 2px rgba(0,0,0,0.04); margin-bottom: .5rem;}
+.pub-item { background: #ead4ee1c; border: 1px solid rgba(0,0,0,0.06); padding: .75rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.04); margin-bottom: .5rem;}
 .pub-title { font-size: 1.05rem; margin: 0 0 .35rem; font-weight: 600; color: #753580; }
 .pub-authors { margin: 0 0 .5rem; color: #413f3f; font-size: 1rem; }
 .pub-meta { font-size: 1rem; color: #413f3f; display: flex; gap: .5rem; align-items: center; flex-wrap: wrap; }
