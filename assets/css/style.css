@@ -8,11 +8,11 @@ body {
 
 main {
     display: flex;
-    align-items: center; /* vertically center content */
+    align-items: flex-start; /* align content to the top so text sits higher than the image */
     justify-content: space-between; /* push items apart horizontally */
     gap: 20px; /* space between text and image */
     width: 60%;
-    margin: 30px auto;
+    margin: 30px auto; /* reduce top margin so content appears higher on the page */
     box-sizing: border-box;
 }
 
